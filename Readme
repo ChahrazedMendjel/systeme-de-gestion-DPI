@@ -1,1 +1,52 @@
+# Application Web de Gestion du Dossier Patient Informatisé (DPI)
+
+Ce projet a été réalisé dans le cadre du module IGL (Ingénierie du Logiciel) à l'École Nationale Supérieure d'Informatique (ESI) — 1CS, durant l'année universitaire 2024-2025.
+
+## Description du Projet
+
+L'application développée a pour objectif de gérer le **Dossier Patient Informatisé (DPI)**. Il s'agit d'un système centralisant toutes les informations médicales et administratives d’un patient tout au long de son séjour à l’hôpital. Le système vise à faciliter la gestion des soins, à améliorer la coordination entre les professionnels de santé et à assurer la traçabilité des actes médicaux.
+
+Le projet propose une solution web fonctionnelle qui permet aux différents intervenants (médecins, infirmiers, pharmaciens, radiologues, techniciens de laboratoire) d’accéder, de mettre à jour et de consulter les DPI de manière sécurisée et efficace.
+
+## Fonctionnalités Clés
+
+- Authentification des utilisateurs
+- Création d’un DPI à l’admission du patient
+- Consultation du DPI par numéro de sécurité sociale (NSS) ou QR code
+- Rédaction d’ordonnances et de bilans médicaux
+- Ajout d’observations infirmières et de soins administrés
+- Visualisation des résultats d’analyses et d’examens
+- Génération de graphiques de suivi (ex : glycémie, pression artérielle)
+- Ajout d’imagerie médicale (IRM, radios, etc.)
+- API REST pour l’interopérabilité avec d'autres systèmes hospitaliers (ex : SGPH)
+
+## Architecture et Technologies
+
+- **Frontend** : Angular (TypeScript)
+- **Backend** : Django (Python)
+- **Base de données** : MySQL
+- **Communication entre systèmes** : API REST
+- **Tests unitaires** : pytest (x2)
+- **Test fonctionnel automatisé** : Selenium (création de DPI)
+- **Outils de documentation** : Générateur de documentation Python/TypeScript
+- **Versionnement** : Git / GitHub
+
+## Installation
+
+### Prérequis
+
+- Python ≥ 3.9
+- Node.js ≥ 14.x
+- MySQL ≥ 8.x
+- Angular CLI
+- Django
+- Git
+
+### Étapes
+
+1. **Cloner le projet :**
+
+```bash
+git clone https://github.com/votre-utilisateur/nom-du-repo.git
+cd nom-du-repo
 
