@@ -13,6 +13,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "optimization": {
+  "styles": {
+    "inlineCritical": false
+  }
+}
             "outputPath": "dist/gestion-dpi",
             "index": "src/index.html",
             "browser": "src/main.ts",
